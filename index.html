@@ -1,6 +1,914 @@
-<html>
-    <title>Zoo Master</title>
-    <body>
-        ZooKeepers are hard at work..
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" href="/fav/apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+		<link rel="manifest" href="/fav/site.webmanifest">
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+			integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title>Zoomaster</title>
+	</head>
+	<body>
+		<main>
+			<!--Navbar -->
+			<nav
+				class="navbar fixed-top navbar-expand-lg navbar-light bg-primary shadow"
+			>
+				<div class="container">
+					<a class="navbar-brand" href="#">
+						<img
+							src="./assets/img/navbar-logo.svg"
+							width="260"
+							class="d-inline-block align-text-top"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<box-icon color="white" size="md" name="menu"></box-icon>
+						<!-- <span class="navbar-toggler-icon"></span> -->
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link text-white" aria-current="page" href="#hero"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#about-us"
+									>Why Zoomaster</a
+								>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#how-to-section"
+									>How we work</a
+								>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#our-mission"
+									>Our mission</a
+								>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#team-section">Our team</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- 
+      <nav class="navbar navbar-light bg-light fixed-top shadow">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/img/navbar-logo.svg"
+              width="160"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav> -->
+
+			<!-- end of navbar -->
+			<section id="hero">
+				<div class="hero-image">
+					<img
+						src="/assets/img/hero-monkey-image.png"
+						width="500"
+						alt=""
+						srcset=""
+					/>
+				</div>
+				<div class="container">
+					<div class="row">
+						<!-- hero content -->
+						<div class="col-lg-6">
+							<div class="hero-content">
+								<h2>
+									The Most Innovative Community-driven Charity 3.0 to support
+									Zoo’s around the world.
+								</h2>
+
+								<p>Welcome to Zoomaster!</p>
+
+								<div class="hero-content-buttons">
+									<a type="button" class="btn btn-primary" target="_blank" href="https://quickswap.exchange/#/swap?outputCurrency=">
+										Buy Token
+									</a>
+									<a type="button" class="btn btn-outline-primary" target="_blank" href="https://twitter.com/thezmproject">
+										<img src="./assets/img/Twitter.svg" alt="" /> Twitter
+									</s>
+									<a type="button" class="btn btn-outline-primary" target="_blank" href="https://t.me/zoomaster">
+										<img src="./assets/img/Telegram.svg" alt="" /> Telegram
+									</a>
+								</div>
+							</div>
+							<div class="hero-short">
+							<a href="https://polygon.technology/" target="_blank">	<img src="./assets/img/polygon.svg" width="60" alt="Built on Polygon" /></a>
+
+								<div class="text">
+									<a href="https://polygon.technology/" target="_blank" class="text" style="text-decoration:none;">Built on Polygon</a>
+									<span class="d-lg-inline d-none"
+										>(previously known as MATIC)</span
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- hero monkey image -->
+						<!-- <div class="col-lg-6"></div> -->
+					</div>
+				</div>
+			</section>
+
+			<section id="about-us">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<img
+								class="tapir-image d-none d-lg-inline"
+								width="180"
+								src="./assets/img/about-us-tapir-image.png"
+								alt=""
+							/>
+						</div>
+						<div class="col-lg-8">
+							<div class="about-content">
+								<h3>Why Zoomaster?</h3>
+								<!-- <div class="text-center d-none tapir-image-mobile">
+
+  <img
+  class="tapir-image m-auto   "
+  width="130"
+  src="/assets/img/about-us-tapir-image.png"
+  alt=""
+/>
+
+</div> -->
+								<div class="about-content-message">
+									<h5>
+										Progressive Zoos and Aquariums must be part of the world’s
+										response to COVID
+									</h5>
+									<p>
+										Many zoos and aquariums face challenges as lockdowns mean
+										the loss of vital income from visitors. The World
+										Association of Zoos and Aquariums (WAZA), an IUCN Member
+										since 1949, includes among its own members more than 280
+										zoos and aquariums from over 50 countries, and 23 national
+										and regional associations.
+									</p>
+
+									<p>
+										In a normal year we estimate more than 700 million people
+										visit zoos and aquariums worldwide, with many millions
+										following their work online too (the only option during
+										lockdown). With this huge and growing audience, we nurture
+										strong relationships with the wider public. We foster love
+										for animals and advocate for them to have their habitats
+										protected. Where science often struggles to find the words
+										to engage people, zoos and aquariums bridge the gap.
+									</p>
+									<p>
+										To that end, jointly with the International Zoo Educators
+										Association, WAZA has published Social Change for
+										Conservation: The World Zoo and Aquarium Conservation
+										Education Strategy. Inspiring conservation action in the
+										wake of the pandemic is essential if we are to reform
+										humanity’s relationship with the natural world.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+					<br />
+
+					<!--Blog Section  -->
+					<div class="row g-2">
+						<div class="col-lg-4">
+							<div class="about-blog-card mb-2">
+								<a href="https://www.bbc.com/news/science-environment-53938561" target="_blank"><img
+									class="w-100 about-blog-card-img"
+									src="./assets/img/article/1.png"
+									alt=""
+								/></a>
+								<div class="title">
+									<a href="https://www.bbc.com/news/science-environment-53938561" class="title" style="text-decoration: none;" target="_blank">Covid-19: Funding crisis threatens zoos' vital conservation work</a>
+								</div>
+								<div class="meta">
+									Oct 1. 2020 &middot; Helen Briggs (BBC News)
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="about-blog-card mb-2">
+								<a href="https://www.channelnewsasia.com/news/business/covid-19-singapore-tourism-adapt-innovate-virtual-visitors-13120664" target="_blank"><img
+									class="w-100 about-blog-card-img"
+									src="./assets/img/article/2.png"
+									alt=""
+								/></a>
+								<div class="title">
+									<a class="title" href="https://www.channelnewsasia.com/news/business/covid-19-singapore-tourism-adapt-innovate-virtual-visitors-13120664" target="_blank" style="text-decoration: none;">COVID-19 pushes tourism players, visitors to adapt to a new reality</a>
+								</div>
+								<div class="meta">
+									Sep 25. 2020 &middot; Jonathan Peeris (CNA)
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="about-blog-card mb-2">
+								<a href="https://www.bbc.com/news/av/uk-52927179" target="_blank"><img
+									class="w-100 about-blog-card-img"
+									src="./assets/img/article/3.png"
+									alt=""
+								/></a>
+								<div class="title">
+									<a href="https://www.bbc.com/news/av/uk-52927179" class="title" style="text-decoration: none;" target="_blank">UK zoos at risk of closure</a>
+								</div>
+								<div class="meta">
+									Jun 4. 2020 &middot; Rob Wood (BBC News)
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- How to section -->
+
+			<section id="how-to-section">
+				<div class="container">
+					<div class="info">
+						<h2 class="heading">How does Zoomaster work ?</h2>
+
+						<p>
+							Every transaction gives you passive income and raises funds to
+							preserve our Urban <br />
+							Zoo for our kids! Let s discover!
+						</p>
+
+						<p class="meta">For each transaction, the following occurs:</p>
+					</div>
+
+					<div class="how-to-cards">
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="info-card">
+									<div class="card-icon">
+										<img
+											width="100"
+											src="./assets/img/coin-burn.svg"
+											alt=""
+											srcset=""
+										/>
+									</div>
+									<div class="card-title">2.9% Coin Burn/transaction</div>
+									<div class="card-description">
+										Yes, 2.9% is removed from supply for every transaction
+										Reducing supply over time, causing upward pressure on price
+										with every transaction.
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4">
+								<div class="info-card">
+									<div class="card-icon">
+										<img
+											width="100"
+											src="./assets/img/wallet.svg"
+											alt=""
+											srcset=""
+										/>
+									</div>
+									<div class="card-title">2.5% to HODLERS</div>
+									<div class="card-description">
+										Goes to holders that’s right, holders of Zoo earn constant
+										passive income just by holding Zoo in their wallet. Enjoy
+										the dividends!
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4">
+								<div class="info-card">
+									<div class="card-icon">
+										<img
+											width="100"
+											src="./assets/img/charity.svg"
+											alt=""
+											srcset=""
+										/>
+									</div>
+									<div class="card-title">3% Charity LP</div>
+									<div class="card-description">
+										is added to the Charity Liquidity Pool and 70% of this is donated to Urban Zoos 30% used for operations , the best thing, the community can
+										vote for the Zoo out of our suggestion 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- statistics -->
+
+					<div class="stats-info">
+						<div class="">Circulating Supply: 100,000,000</div>
+						<div class="">Total Supply: 100,000,000 </div>
+						<div class="meta">
+							 
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- 
+
+			<section id="support-community">
+				<div class="container">
+					<div class="heading">
+						<h2>Which Zoo does the community supporting?</h2>
+						<p>
+							We want to make sure the charity transaction rewards are at the
+							best place. For that we have vetted here few Zoos for the 1st
+							batch
+						</p>
+					</div>
+
+		
+					<div class="support-areas">
+						<div class="carousel-section">
+							<div class="row g-4 slick-responsive-carousel">
+								<div class="col-lg-4">
+									<div class="area-card card">
+										<img
+											src="https://via.placeholder.com/200x150"
+											alt=""
+											srcset=""
+										/>
+										<div class="card-body">
+											<div class="description">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											</div>
+
+											<div class="title">San Diego Zoo</div>
+											<div class="meta">San Diego, California, USA</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4">
+									<div class="area-card card">
+										<img
+											src="https://via.placeholder.com/200x150"
+											alt=""
+											srcset=""
+										/>
+										<div class="card-body">
+											<div class="description">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											</div>
+
+											<div class="title">San Diego Zoo</div>
+											<div class="meta">San Diego, California, USA</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4">
+									<div class="area-card card">
+										<img
+											src="https://via.placeholder.com/200x150"
+											alt=""
+											srcset=""
+										/>
+										<div class="card-body">
+											<div class="description">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											</div>
+
+											<div class="title">San Diego Zoo</div>
+											<div class="meta">San Diego, California, USA</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			
+
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="support-cta">
+									<p>Share & vote your preferred zoo on our Twitter polls!</p>
+									<button class="btn btn-outline-primary px-5">
+										<img src="./assets/img/Twitter.svg" alt="" /> Vote Now
+									</button>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="support-cta">
+									<p>Check for yourself the Charity Pool Wallet</p>
+									<button class="btn btn-outline-primary px-5">
+										<img src="./assets/img/performance.svg" alt="" /> Check
+										generated funds
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+       -->
+			<!-- OUR MISSION -->
+
+			<section id="our-mission">
+				<div class="container">
+					<div class="hero">
+						<img src="./assets/img/logo-icon.png" />
+
+						<div class="info">
+							<h3>Our mission</h3>
+							<p>
+								Help the most Covid-19 impacted Urban Zoos and their visitor to
+								<br />
+								thrive at most energy efficient and CO2 friendly way.
+							</p>
+						</div>
+					</div>
+
+					<div class="divider"></div>
+
+					<div class="info">
+						<h3>Our path to better zoos</h3>
+						<p>The is currently team working on the following.</p>
+					</div>
+
+					<!-- STEPS PATH -->
+					<div class="row">
+						<div class="col-12">
+							<div id="step-paths">
+								<h3>
+									<img width="110" src="./assets/img/Q1.svg" alt="" srcset="" />
+								</h3>
+								<section>
+									<div class="question-content">
+										<div class="question-title">Q1 / 2021</div>
+										<div class="question-description">
+											Team comes together to explore the Blockchain space
+											Concept Development Identity Impacted Zoo
+										</div>
+									</div>
+								</section>
+
+								<h3>
+									<img width="110" src="./assets/img/Q2.svg" alt="" srcset="" />
+								</h3>
+								<section>
+									<div class="question-content">
+										<div class="question-title">Q2 / 2020</div>
+										<div class="question-description">
+											Team comes together to explore the Blockchain space
+											Concept Development Identity Impacted Zoo
+										</div>
+									</div>
+								</section>
+
+								<h3>
+									<img width="110" src="./assets/img/Q3.svg" alt="" srcset="" />
+								</h3>
+								<section>
+									<div class="question-content">
+										<div class="question-title">Q3 / 2019</div>
+										<div class="question-description">
+											Team comes together to explore the Blockchain space
+											Concept Development Identity Impacted Zoo
+										</div>
+									</div>
+								</section>
+
+								<h3>
+									<img width="110" src="./assets/img/Q4.svg" alt="" srcset="" />
+								</h3>
+								<section>
+									<div class="question-content">
+										<div class="question-title">Q4 / 2018</div>
+										<div class="question-description">
+											Team comes together to explore the Blockchain space
+											Concept Development Identity Impacted Zoo
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+
+					<div class="divider"></div>
+
+					<!-- OUR TEAM -->
+					<div id="team-section">
+						<div class="info">
+							<h3>Our team</h3>
+							<p>A unique mix of experiences to support our Zoos.</p>
+						</div>
+
+						<br />
+						<!-- Team card -->
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="card h-100 border-0 team-card">
+									<img
+										width="100"
+										src="./assets/img/illustrations/ice-bear.png"
+										alt=""
+									/>
+									<div class="card-body">
+										<div class="team-title">Rahul</div>
+										<div class="team-position">CEO</div>
+										<div class="team-about">
+											We ve come too far, To give up who we are, So let s raise
+											the bar and our cups to the stars.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="card h-100 border-0 team-card">
+									<img
+										width="100"
+										src="./assets/img/illustrations/bull.png"
+										alt="Ricky"
+									/>
+									<div class="card-body">
+										<div class="team-title">Ricky</div>
+										<div class="team-position">CTO</div>
+										<div class="team-about">
+											Passionate about Blockchain, Cloud, DevOps and Software Development with experience over 15 years
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="card h-100 border-0 team-card">
+									<img
+										width="62"
+										src="./assets/img/illustrations/parrot.png"
+										alt=""
+									/>
+									<div class="card-body">
+										<div class="team-title">Marc</div>
+										<div class="team-position">CMO</div>
+										<div class="team-about">
+											I ve got a sweeter song than the birds in the trees. Well,
+											I guess youd say what can make me feel this way
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- OUR BRANDS -->
+					<div id="brands">
+						<div class="info">
+							<p>
+								We have build and helped in the past companies and brand to
+								<br />
+								grow
+							</p>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-2 col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/nestle.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/coca-cola.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/citi.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/dbs.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/accenture.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/telkomsel.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/airfrance.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/emirates.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-half-offset col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/heineken.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+
+							<div class="col-lg-2 col-6">
+								<img
+									class="brand-img"
+									width="150"
+									src="./assets/img/brand icons/verifone.svg"
+									alt=""
+									srcset=""
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--FOOTER SECTION  -->
+		</main>
+
+		<footer id="footer">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-4 col-12">
+						<div class="brand-description d-flex align-items-center">
+							<img
+								width="100"
+								src="./assets/img/logo-white.png"
+								alt=""
+								srcset=""
+							/>
+							<div class="address">
+								<h5 class="text-white"></h5>
+								<p>
+									<br />
+
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="social-icons">
+							<span>
+								<img src="./assets/img/reddit.svg" alt="" srcset="" />
+							</span>
+							<span>
+								<a href="https://github.com/zoomasters/" target="_blank"><img src="./assets/img/github.svg" alt="" srcset="" /></a>
+							</span>
+							<span>
+								<a href="https://twitter.com/thezmproject" target="_blank"><img src="./assets/img/twitter-white.svg" alt="" srcset="" /></a>
+							</span>
+							<span>
+								<a href="https://t.me/zoomaster" target="_blank"><img src="./assets/img/telegram-white.svg" alt="" srcset="" /></a>
+							</span>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="footer-about">
+							
+						</div>
+					</div>
+				</div>
+
+				<!-- Copyright info -->
+				<div class="copyright-text">
+					<div class="row">
+						<div class="col-lg-4 offset-lg-4 col-12">
+							<p>&copy; 2021 Zoomaster. All rights reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- SCRIPTS -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"
+			integrity="sha512-bE0ncA3DKWmKaF3w5hQjCq7ErHFiPdH2IGjXRyXXZSOokbimtUuufhgeDPeQPs51AI4XsqDZUK7qvrPZ5xboZg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+		></script>
+
+		<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+		<!-- STEPS PLUGIN -->
+		<script>
+			$("#step-paths").steps({
+				headerTag: "h3",
+				bodyTag: "section",
+				transitionEffect: "slideLeft",
+				autoFocus: true,
+				enableAllSteps: true,
+				enableFinishButton: false,
+				transitionEffect: "fade",
+				labels: {
+					next: '<img src="./assets/img/chevron-right.svg" >',
+					previous: '<img src="./assets/img/chevron-left.svg"/>',
+				},
+			});
+		</script>
+
+		<!-- SLICK CAROUSEL -->
+		<script>
+			$(".slick-responsive-carousel").slick({
+				dots: false,
+				infinite: false,
+				speed: 300,
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				adaptiveHeight: true,
+
+				nextArrow: '<img src="./assets/img/chevron-right.svg" class="next"/>',
+				prevArrow: '<img src="./assets/img/chevron-left.svg" class="prev"/>',
+
+				responsive: [
+					{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 3,
+							infinite: true,
+							dots: true,
+						},
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1,
+						},
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+						},
+					},
+					// You can unslick at a given breakpoint now by adding:
+					// settings: "unslick"
+					// instead of a settings object
+				],
+			});
+
+			// $('#carousel').slick({
+			//                       infinite: true,
+			//                       slidesToShow: 3,
+			//                       slidesToScroll: 1,
+			//                       arrows: true,
+			//                       autoplay: true,
+			//                       autoplaySpeed: 2000,
+			//                       responsive: [
+			//                             {
+			//                               breakpoint: 1200,
+			//                               settings: {
+			//                                 slidesToShow: 2,
+			//                                 slidesToScroll: 1
+			//                               }
+			//                             },
+			//                             {
+			//                               breakpoint: 1008,
+			//                               settings: {
+			//                                 slidesToShow: 1,
+			//                                 slidesToScroll: 1
+			//                               }
+			//                             },
+			//                             {
+			//                               breakpoint: 800,
+			//                               settings: "unslick"
+			//                             }
+
+			//                           ]
+			//             });
+		</script>
+	</body>
 </html>

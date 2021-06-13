@@ -1,0 +1,953 @@
+// MOBILE DESIGN
+@media only screen and (max-width: 800px) {
+	.col-half-offset {
+		margin-left: 0%;
+	}
+	// Hero section
+	#hero {
+		background-image: url("/assets/img/bg+shadow.png");
+		min-height: 100%;
+		background-repeat: no-repeat;
+		background-size: 48rem !important;
+		background-position-x: -17rem;
+		// background-position: center;
+		position: relative;
+		overflow-x: hidden;
+		// background-position-y: -615px;
+		// background-position-x: 71%;
+
+		// margin-top: 4rem;
+
+		.hero-content {
+			text-align: center;
+			padding: 2rem;
+			padding-top: 25rem !important;
+			margin-bottom: 0rem;
+			padding-bottom: 2rem;
+			h2 {
+				font-size: 1.2rem;
+				margin-bottom: 2rem;
+				font-weight: 500;
+				color: $gray-100;
+			}
+			p {
+				font-size: 2.6rem;
+				color: $primary-color;
+				font-weight: bold;
+				line-height: 2.5rem;
+				margin-bottom: 2rem;
+			}
+			.hero-content-buttons {
+				display: flex;
+				flex-direction: column;
+				a {
+					margin-bottom: 1rem;
+				}
+			}
+		}
+		.hero-image {
+			position: absolute;
+			right: -0.2rem;
+			padding-top: 3rem;
+			img {
+				width: 334px !important;
+			}
+		}
+		.hero-short {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 2rem;
+			.text {
+				font-size: 1rem;
+				color: $gray-60;
+				font-weight: 500;
+			}
+		}
+	}
+
+	// ABOUT SECTION
+
+	#about-us {
+		background-color: $blue-5;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
+		.about-content {
+			text-align: center;
+			.tapir-image-mobile {
+				// display: block !important;
+				margin-bottom: 5rem;
+			}
+			h3 {
+				margin-bottom: 4rem;
+				font-size: 2rem;
+				color: $primary-color;
+				margin-left: 3rem;
+				font-weight: 600;
+			}
+			.about-content-message {
+				padding: 1.5rem;
+				h5 {
+					color: $primary-color;
+					font-size: 1rem;
+					margin-bottom: 1.5rem;
+				}
+				p {
+					font-size: 1rem;
+					color: $gray-80;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+
+		//   Blog posts
+
+		.about-blog-card {
+			padding: 0.5rem;
+			.about-blog-card-img {
+			}
+			.title {
+				font-size: 1.2rem;
+				color: $gray-100;
+				margin-top: 1rem;
+				font-weight: 500;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+
+	// HOW TO SECTION
+
+	#how-to-section {
+		padding: 1rem;
+		.info {
+			text-align: center;
+			margin-top: 4rem;
+			margin-bottom: 4rem;
+			.heading {
+				margin-bottom: 1rem;
+				font-size: 1.4rem;
+				color: $primary-color;
+				margin-left: 3rem;
+				font-weight: 600;
+			}
+			p {
+				color: $gray-80;
+				font-size: 0.9rem;
+			}
+		}
+		.info-card {
+			margin-bottom: 2rem;
+			text-align: center;
+			.card-icon {
+				img {
+					width: 4rem;
+				}
+			}
+			.card-title {
+				font-size: 1.2rem;
+				color: $primary-color;
+				margin-top: 0.5rem;
+				font-weight: 500;
+				margin-bottom: 0.5rem;
+			}
+			.card-description {
+				font-size: 1rem;
+				color: $gray-80;
+			}
+		}
+		.stats-info {
+			text-align: center;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			font-size: 1.2rem;
+			font-weight: 500;
+			color: $primary-color;
+			.meta {
+				margin-top: 1.3rem;
+				font-size: 0.8rem;
+			}
+		}
+	}
+
+	// COMMUNITY SUPPORTING
+
+	#support-community {
+		background-color: $blue-5;
+		// padding: 4rem 1rem;
+		// padding-top: 4rem;
+		// padding-bottom: 4rem;
+		.heading {
+			text-align: center;
+			margin-bottom: 3rem;
+			padding-left: 1rem;
+			padding-right: 1rem;
+			h2 {
+				margin-bottom: 1.6rem;
+				font-size: 1.4rem;
+				color: $primary-color;
+				font-weight: 600;
+			}
+			p {
+				color: $gray-80;
+				font-size: 0.7rem;
+				padding: 1rem;
+			}
+		}
+
+		.support-areas {
+			padding-left: 0rem;
+			padding-right: 0rem;
+			padding: 1rem;
+			margin-top: 3rem !important;
+			.carousel-section {
+				padding: 1rem;
+				.draggable {
+					height: 20rem !important  ;
+				}
+			}
+			.area-card {
+				margin-top: 8rem;
+				text-align: center;
+				align-items: center;
+				position: relative;
+				width: fit-content;
+				padding-top: 2rem;
+				border: none;
+				border-radius: 0.5rem;
+				box-shadow: 0 0.5rem 1rem darken($blue-5, $amount: 2) !important;
+				margin-bottom: 2rem;
+				img {
+					top: -120px;
+					margin: auto;
+					width: 75%;
+					position: absolute;
+				}
+				.title {
+					color: $primary-color;
+					font-size: 1.2rem;
+					margin-top: 0.7rem;
+					font-weight: 600;
+				}
+				.description {
+					color: $gray-60;
+					font-size: 0.9rem;
+				}
+				.meta {
+					color: $primary-color;
+				}
+			}
+
+			.support-cta {
+				text-align: center;
+				margin-bottom: 2rem;
+				p {
+					font-size: 1rem;
+					color: $gray-80;
+				}
+			}
+		}
+	}
+
+	// OUR MISSION SECTION
+
+	#our-mission {
+		padding: 1rem;
+		.hero {
+			text-align: center;
+			img {
+				width: 200px;
+			}
+		}
+
+		.info {
+			text-align: center;
+			margin-top: 2rem;
+			margin-bottom: 5rem;
+			h3 {
+				color: $primary-color;
+				font-weight: 600;
+				font-size: 1.7rem;
+				margin-bottom: 2rem;
+			}
+			p {
+				color: $gray-80;
+				font-weight: 500;
+				font-size: 1rem;
+			}
+		}
+
+		.divider {
+			width: 100%;
+			border: 1px solid $gray-20;
+			margin: auto;
+			margin-bottom: 3rem;
+		}
+
+		// STEPS
+
+		#step-paths {
+			width: 100%;
+			margin: auto;
+			margin-top: -4rem;
+			margin-bottom: 4rem;
+			padding: 0rem;
+			position: relative;
+			// Question content
+			.question-content {
+				width: 100%;
+				margin: auto;
+				text-align: center;
+				padding-left: 5rem;
+				padding-right: 3rem;
+				.question-title {
+					color: $primary-color;
+					font-size: 1.2rem;
+					font-weight: 500;
+				}
+				.question-description {
+					font-size: 1rem;
+					color: $gray-60;
+				}
+			}
+			.steps {
+				ul {
+					display: flex;
+					justify-content: center;
+					li {
+						list-style-type: none;
+						margin-right: 2rem;
+						a {
+							text-decoration: none;
+							font-size: 5rem;
+							color: $primary-color;
+							font-weight: 600;
+							.number {
+								display: none;
+							}
+							.audible {
+								display: none;
+							}
+							img {
+								transition: all 0.4s;
+								opacity: 0.2;
+								filter: grayscale(100%);
+								width: 30px !important;
+							}
+						}
+
+						&:hover {
+							a {
+								img {
+									opacity: 0.2;
+									filter: grayscale(50%);
+								}
+							}
+						}
+
+						&.current {
+							a {
+								img {
+									opacity: 1;
+									filter: grayscale(0%);
+								}
+							}
+						}
+					}
+				}
+			}
+			.content {
+				.title {
+					display: none;
+				}
+			}
+			.actions {
+				position: absolute;
+				top: 61%;
+				width: 95%;
+				ul {
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+					li {
+						list-style-type: none;
+						a {
+							text-decoration: none;
+						}
+					}
+
+					&:nth-child(1) {
+						a {
+							color: red;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Teams
+	#team-section {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		.col-lg-4 {
+			margin-bottom: 6rem;
+		}
+		.team-card {
+			text-align: center;
+			position: relative;
+			padding-top: 3rem;
+			margin-bottom: 5rem;
+			border-radius: 0.3rem;
+			box-shadow: 0 0.125rem 5px 3px rgb(0 0 0 / 15%) !important;
+			img {
+				position: absolute;
+				top: -50px;
+				left: 36%;
+			}
+			.team-title {
+				font-size: 1rem;
+				font-weight: 600;
+				color: $primary-color;
+			}
+			.team-position {
+				color: $primary-color;
+				font-weight: 600;
+				font-size: 0.6rem;
+			}
+			.team-about {
+				margin-top: 1rem;
+				font-size: 1rem;
+				color: $gray-80;
+			}
+		}
+	}
+
+	// Brands
+
+	#brands {
+		margin-bottom: 2rem;
+		.info {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
+		.brand-img {
+			transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+			filter: grayscale(0%);
+			width: 107px !important;
+			&:hover {
+				filter: grayscale(10%);
+				transform: scale(1.04);
+			}
+		}
+	}
+
+	// FOOTER
+
+	#footer {
+		background-color: $blue-100;
+		padding: 2rem;
+		padding-bottom: 3rem;
+		color: white;
+		text-align: center;
+		.brand-description {
+			margin-bottom: 2rem;
+			.address {
+				margin-left: 2rem;
+				margin-top: 1rem;
+				h5 {
+					font-weight: 600;
+				}
+				p {
+					opacity: 0.9;
+				}
+			}
+		}
+
+		.social-icons {
+			margin-bottom: 2rem;
+
+			align-items: center;
+			span {
+				img {
+					width: 40px;
+					margin-left: none;
+					transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+				}
+				&:hover {
+					img {
+						transform: scale(1.4);
+						outline: 5px dotted rgba(255, 255, 255, 0.219);
+						border-radius: 90px;
+					}
+				}
+				margin-right: 1rem;
+			}
+		}
+
+		.footer-about {
+			font-size: 0.8rem;
+			opacity: 0.8;
+		}
+		.copyright-text {
+			text-align: center !important;
+			opacity: 0.9;
+			margin-top: 4rem;
+		}
+	}
+}
+
+// FOR 1024 screen size
+
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+	// Hero section
+
+	#hero {
+		background-image: url("/assets/img/bg+shadow.png");
+		min-height: 100%;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+		overflow-x: hidden;
+		margin-top: 4rem;
+
+		.hero-content {
+			padding-top: 15rem;
+			margin-bottom: 10rem;
+			h2 {
+				font-size: 1.2rem;
+				color: $primary-color;
+				font-weight: bold;
+				line-height: 1.5rem;
+				margin-bottom: 2rem;
+			}
+			p {
+				font-size: 1.2rem;
+				margin-bottom: 2rem;
+				font-weight: 500;
+			}
+		}
+		.hero-image {
+			position: absolute;
+			right: -0.2rem;
+			padding-top: 3rem;
+			img {
+				width: 398px !important;
+			}
+		}
+		.hero-short {
+			display: flex;
+			align-items: center;
+			margin-bottom: 5rem;
+			.text {
+				font-size: 1rem;
+				color: $gray-60;
+				font-weight: 500;
+			}
+		}
+	}
+
+	// ABOUT SECTION
+
+	#about-us {
+		background-color: $blue-5;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
+		.about-content {
+			h3 {
+				margin-bottom: 4rem;
+				font-size: 2rem;
+				color: $primary-color;
+				margin-left: 3rem;
+			}
+			.about-content-message {
+				h5 {
+					color: $primary-color;
+					font-size: 1.2rem;
+					margin-bottom: 1.5rem;
+				}
+				p {
+					font-size: 1rem;
+					color: $gray-80;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+
+		//   Blog posts
+
+		.about-blog-card {
+			.about-blog-card-img {
+			}
+			.title {
+				font-size: 1.2rem;
+				color: $gray-100;
+				margin-top: 1rem;
+				font-weight: 500;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+
+	// HOW TO SECTION
+
+	#how-to-section {
+		.info {
+			text-align: center;
+			margin-top: 4rem;
+			margin-bottom: 4rem;
+			.heading {
+				margin-bottom: 1rem;
+				font-size: 2rem;
+				color: $primary-color;
+				margin-left: 3rem;
+			}
+			p {
+				color: $gray-80;
+				font-size: 1rem;
+			}
+		}
+		.info-card {
+			text-align: center;
+			.card-title {
+				font-size: 1.1rem;
+				color: $primary-color;
+				margin-top: 0.5rem;
+				font-weight: 500;
+				margin-bottom: 0.5rem;
+			}
+			.card-description {
+				font-size: 0.9rem;
+				color: $gray-80;
+			}
+		}
+		.stats-info {
+			text-align: center;
+			margin-top: 3rem;
+			margin-bottom: 2rem;
+			font-size: 1.5rem;
+			font-weight: 500;
+			color: $primary-color;
+			.meta {
+				margin-top: 1.3rem;
+				font-size: 0.7rem;
+			}
+		}
+	}
+
+	// COMMUNITY SUPPORTING
+
+	#support-community {
+		background-color: $blue-5;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		.heading {
+			padding-left: 6.5rem;
+			padding-right: 6.5rem;
+			text-align: center;
+			margin-bottom: 3rem;
+			h2 {
+				margin-bottom: 1.6rem;
+				font-size: 2rem;
+				color: $primary-color;
+				font-weight: 600;
+			}
+			p {
+				color: $gray-80;
+				font-size: 1.2rem;
+			}
+		}
+
+		.support-areas {
+			padding-left: 6rem;
+			padding-right: 6rem;
+			margin-top: 5rem;
+			.carousel-section {
+				padding: 1rem;
+				.draggable {
+					height: 21rem !important  ;
+				}
+			}
+			.area-card {
+				margin-top: 8rem;
+				text-align: center;
+				align-items: center;
+				position: relative;
+				width: fit-content;
+				padding-top: 2rem;
+				margin-right: 0.5rem;
+				border: none;
+				border-radius: 0.5rem;
+				box-shadow: 0 0.5rem 1rem darken($blue-5, $amount: 2) !important;
+				margin-bottom: 2rem;
+				img {
+					top: -133px;
+					margin: auto;
+					width: 75%;
+					position: absolute;
+				}
+				.title {
+					color: $primary-color;
+					font-size: 1.12rem;
+					margin-top: 0.7rem;
+					font-weight: 600;
+				}
+				.description {
+					color: $gray-60;
+					font-size: 0.8rem;
+				}
+				.meta {
+					color: $primary-color;
+				}
+			}
+
+			.support-cta {
+				text-align: center;
+				p {
+					font-size: 1rem;
+					color: $gray-80;
+				}
+			}
+		}
+	}
+
+	// OUR MISSION SECTION
+
+	#our-mission {
+		.hero {
+			text-align: center;
+			img {
+				width: 200px;
+			}
+		}
+
+		.info {
+			text-align: center;
+			margin-top: 2rem;
+			margin-bottom: 5rem;
+			h3 {
+				color: $primary-color;
+				font-weight: 600;
+				font-size: 2rem;
+				margin-bottom: 2rem;
+			}
+			p {
+				color: $gray-80;
+				font-weight: 500;
+				font-size: 1.5rem;
+			}
+		}
+
+		.divider {
+			width: 70%;
+			border: 1px solid $gray-20;
+			margin: auto;
+			margin-bottom: 3rem;
+		}
+
+		// STEPS
+
+		#step-paths {
+			width: 77%;
+			margin: auto;
+			margin-top: -4rem;
+			margin-bottom: 4rem;
+			padding: 1rem;
+			position: relative;
+			// Question content
+			.question-content {
+				width: 50%;
+				margin: auto;
+				text-align: center;
+				// padding-left: 4.5rem;
+				// padding-right: 4.5rem;
+				.question-title {
+					color: $primary-color;
+					font-size: 1.2rem;
+					font-weight: 500;
+				}
+				.question-description {
+					font-size: 1.5rem;
+					color: $gray-60;
+				}
+			}
+			.steps {
+				ul {
+					display: flex;
+					li {
+						list-style-type: none;
+						margin-right: 6rem;
+						a {
+							text-decoration: none;
+							font-size: 5rem;
+							color: $primary-color;
+							font-weight: 600;
+							.number {
+								display: none;
+							}
+							.audible {
+								display: none;
+							}
+							img {
+								transition: all 0.4s;
+								opacity: 0.2;
+								filter: grayscale(100%);
+							}
+						}
+
+						&:hover {
+							a {
+								img {
+									opacity: 0.2;
+									filter: grayscale(50%);
+								}
+							}
+						}
+
+						&.current {
+							a {
+								img {
+									opacity: 1;
+									filter: grayscale(0%);
+								}
+							}
+						}
+					}
+				}
+			}
+			.content {
+				.title {
+					display: none;
+				}
+			}
+			.actions {
+				position: absolute;
+				top: 61%;
+				width: 95%;
+				ul {
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+					li {
+						list-style-type: none;
+						a {
+							text-decoration: none;
+						}
+					}
+
+					&:nth-child(1) {
+						a {
+							color: red;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#team-section {
+		padding-left: 5rem;
+		padding-right: 5rem;
+		margin-top: 1rem;
+		margin-bottom: 4rem;
+		.team-card {
+			text-align: center;
+			position: relative;
+			padding-top: 3rem;
+			border-radius: 0.3rem;
+			box-shadow: 0 0.125rem 5px 3px rgb(0 0 0 / 15%) !important;
+			img {
+				position: absolute;
+				top: -50px;
+				left: 36%;
+			}
+			.team-title {
+				font-size: 1rem;
+				font-weight: 600;
+				color: $primary-color;
+			}
+			.team-position {
+				color: $primary-color;
+				font-weight: 600;
+				font-size: 0.6rem;
+			}
+			.team-about {
+				margin-top: 1rem;
+				font-size: 0.7rem;
+				color: $gray-80;
+			}
+		}
+	}
+
+	// Brands
+
+	#brands {
+		.info {
+			p {
+				padding-left: 5rem;
+				padding-right: 5rem;
+			}
+		}
+		margin-bottom: 4rem;
+		.brand-img {
+			transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+			filter: grayscale(100%);
+			&:hover {
+				filter: grayscale(10%);
+				transform: scale(1.04);
+			}
+		}
+	}
+
+	// FOOTER
+
+	#footer {
+		background-color: $blue-100;
+		padding: 3rem;
+		padding-bottom: 3rem;
+		color: white;
+		.brand-description {
+			.address {
+				margin-left: 2rem;
+				margin-top: 1rem;
+				h5 {
+					font-weight: 600;
+				}
+				p {
+					opacity: 0.7;
+				}
+			}
+		}
+
+		.social-icons {
+			align-items: center;
+			span {
+				img {
+					margin-left: none;
+					transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+				}
+				&:hover {
+					img {
+						transform: scale(1.4);
+						outline: 5px dotted rgba(255, 255, 255, 0.219);
+						border-radius: 90px;
+					}
+				}
+				margin-right: 2rem;
+			}
+		}
+
+		.footer-about {
+			font-size: 0.8rem;
+			opacity: 0.8;
+		}
+		.copyright-text {
+			opacity: 0.8;
+			text-align: left !important;
+		}
+	}
+}

@@ -1,0 +1,78 @@
+.bg-primary {
+	background-color: $primary-color;
+}
+
+.btn-primary {
+	background-color: $primary-color;
+	transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.btn-outline-primary {
+	border-color: $primary-color;
+	color: $primary-color;
+	transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+
+	&:hover {
+		background: none;
+		color: $primary-color;
+	}
+}
+
+.slick-arrow {
+	width: 70px !important;
+}
+
+// NEXT AND PREV : LICK CAROUSEL
+.slick-responsive-carousel {
+	position: relative;
+	.prev {
+		display: block;
+		position: absolute;
+		z-index: 1000;
+		top: 50%;
+		transform: translateY(-20%);
+		left: -40px;
+	}
+
+	.next {
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 50%;
+		transform: translateY(-20%);
+		z-index: 1000;
+		right: -25px;
+	}
+}
+.col-half-offset {
+	margin-left: 4.166666667%;
+	// @media only screen and (max-width: 600px) {
+
+	// }
+}
+
+// NAVBAR
+.navbar {
+	.navbar-nav {
+		.nav-item {
+			.nav-link {
+				font-size: 0.9rem;
+				margin-right: 1rem;
+				padding: 0.5rem;
+				&:hover {
+					outline: 1px solid white;
+					background-color: white;
+					color: $primary-color !important;
+				}
+			}
+		}
+	}
+
+	// Navbar - toggler{
+	.navbar-toggler {
+		&:focus {
+			box-shadow: none !important;
+		}
+		outline: none !important;
+		border: none !important;
+	}
+}
