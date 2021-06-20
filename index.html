@@ -9,6 +9,7 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
 		<link rel="manifest" href="/fav/site.webmanifest">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Bootstrap CSS -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -30,7 +31,7 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="assets/css/style.css" />
-		<title>Zoomaster</title>
+		<title>ZooMaster</title>
 	</head>
 	<body>
 		<main>
@@ -66,31 +67,31 @@
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#about-us"
-									>Why Zoomaster</a
+								<a class="nav-link text-white"  onclick="scrollToDiv('about-us')"
+									>Why ZooMaster</a
 								>
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#how-to-section"
+								<a class="nav-link text-white" onclick="scrollToDiv('how-to-section')"
 									>How we work</a
 								>
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#our-mission"
+								<a class="nav-link text-white" onclick="scrollToDiv('our-mission')"
 									>Our mission</a
 								>
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#team-section">Our team</a>
+								<a class="nav-link text-white" onclick="scrollToDiv('team-section')" >Our team</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-			<!-- 
+			<!--
       <nav class="navbar navbar-light bg-light fixed-top shadow">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -120,7 +121,7 @@
               </li>
             </ul>
           </div>
-          
+
         </div>
       </nav> -->
 
@@ -144,30 +145,32 @@
 									Zoo’s around the world.
 								</h2>
 
-								<p>Welcome to Zoomaster!</p>
+								<p>Welcome to ZooMaster!</p>
 
 								<div class="hero-content-buttons">
-									<a  class="btn btn-primary" target="_blank" href="https://quickswap.exchange/#/swap?outputCurrency=">
+									<a  class="btn btn-primary me-2 px-4" target="_blank" href="https://quickswap.exchange/#/swap?outputCurrency=0x68962851C0AD48974DF4FE98303ADfBED5aa3641">
 										Buy Token
 									</a>
-									<a class="btn btn-outline-primary" target="_blank" href="https://twitter.com/thezmproject">
+									<a class="btn btn-outline-primary me-2 px-4" target="_blank" href="https://twitter.com/thezmproject">
 										<img src="./assets/img/Twitter.svg" alt="" /> Twitter
-									</s>
-									<a class="btn btn-outline-primary" target="_blank" href="https://t.me/zoomaster">
+									</a>
+									<a class="btn btn-outline-primary me-2 px-4" target="_blank" href="https://t.me/zoomaster">
 										<img src="./assets/img/Telegram.svg" alt="" /> Telegram
 									</a>
+									<div class="hero-short">
+										<a href="https://polygon.technology/" target="_blank">	<img src="./assets/img/polygon.svg" width="60" alt="Built on Polygon" /></a>
+			
+											<div class="text">
+												<a href="https://polygon.technology/" target="_blank" class="text" style="text-decoration:none;">Built on Polygon</a>
+												<span class="d-lg-inline d-none"
+													>(previously known as MATIC)</span
+												>
+											</div>
+										</div>
 								</div>
+								
 							</div>
-							<div class="hero-short">
-							<a href="https://polygon.technology/" target="_blank">	<img src="./assets/img/polygon.svg" width="60" alt="Built on Polygon" /></a>
-
-								<div class="text">
-									<a href="https://polygon.technology/" target="_blank" class="text" style="text-decoration:none;">Built on Polygon</a>
-									<span class="d-lg-inline d-none"
-										>(previously known as MATIC)</span
-									>
-								</div>
-							</div>
+							
 						</div>
 
 						<!-- hero monkey image -->
@@ -241,7 +244,7 @@
 					<br />
 
 					<!--Blog Section  -->
-					<div class="row g-2">
+					<div class="row ">
 						<div class="col-lg-4">
 							<div class="about-blog-card mb-2">
 								<a href="https://www.bbc.com/news/science-environment-53938561" target="_blank"><img
@@ -296,12 +299,12 @@
 			<section id="how-to-section">
 				<div class="container">
 					<div class="info">
-						<h2 class="heading">How does Zoomaster work ?</h2>
+						<h2 class="heading">How does the ZooMaster Token work ?</h2>
 
 						<p>
 							Every transaction gives you passive income and raises funds to
 							preserve our Urban <br />
-							Zoo for our kids! Let s discover!
+							Zoo's for our kids. Let us make it happen together.
 						</p>
 
 						<p class="meta">For each transaction, the following occurs:</p>
@@ -319,10 +322,10 @@
 											srcset=""
 										/>
 									</div>
-									<div class="card-title">2.9% Coin Burn/transaction</div>
+									<div class="card-title">3% Coin Burn/transaction</div>
 									<div class="card-description">
-										Yes, 2.9% is removed from supply for every transaction
-										Reducing supply over time, causing upward pressure on price
+										Yes, 3% is removed from supply for every transaction
+										reducing supply over time, causing upward pressure on price
 										with every transaction.
 									</div>
 								</div>
@@ -338,11 +341,11 @@
 											srcset=""
 										/>
 									</div>
-									<div class="card-title">2.5% to HODLERS</div>
+									<div class="card-title">3% Reward to ZooMasters</div>
 									<div class="card-description">
-										Goes to holders that’s right, holders of Zoo earn constant
-										passive income just by holding Zoo in their wallet. Enjoy
-										the dividends!
+										Holders of ZOO earn constant passive value increase just by
+										holding ZOO in their wallet. Enjoy the Growth.
+										It feels good to be a ZooMaster!
 									</div>
 								</div>
 							</div>
@@ -359,8 +362,8 @@
 									</div>
 									<div class="card-title">3% Charity LP</div>
 									<div class="card-description">
-										is added to the Charity Liquidity Pool and 70% of this is donated to Urban Zoos 30% used for operations , the best thing, the community can
-										vote for the Zoo out of our suggestion 
+										Added to the Charity Liquidity Pool.70% donated to Urban Zoos and 30% used for Marketing.
+										The community can vote for the Zoo from our accredited list.
 									</div>
 								</div>
 							</div>
@@ -373,39 +376,38 @@
 						<div class="">Circulating Supply: 100,000,000</div>
 						<div class="">Total Supply: 100,000,000 </div>
 						<div class="meta">
-							 
+
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<!-- 
+
 
 			<section id="support-community">
 				<div class="container">
 					<div class="heading">
-						<h2>Which Zoo does the community supporting?</h2>
+						<h2>Which Zoo does the community support?</h2>
 						<p>
 							We want to make sure the charity transaction rewards are at the
-							best place. For that we have vetted here few Zoos for the 1st
-							batch
+							best place. For that we have vetted the first batch of Zoos globally.
 						</p>
 					</div>
 
-		
+
 					<div class="support-areas">
 						<div class="carousel-section">
 							<div class="row g-4 slick-responsive-carousel">
 								<div class="col-lg-4">
 									<div class="area-card card">
 										<img
-											src="https://via.placeholder.com/200x150"
-											alt=""
+											src="/assets/img/zoo/sandiego.png"
+											alt="San Diego Zoo"
 											srcset=""
 										/>
 										<div class="card-body">
 											<div class="description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Houses more than 3,500 animals across 650 different species and has often been awarded as one of the best zoos in the world..
 											</div>
 
 											<div class="title">San Diego Zoo</div>
@@ -417,17 +419,17 @@
 								<div class="col-lg-4">
 									<div class="area-card card">
 										<img
-											src="https://via.placeholder.com/200x150"
-											alt=""
+											src="/assets/img/zoo/duisburg.png"
+											alt="Zoo Duisburg"
 											srcset=""
 										/>
 										<div class="card-body">
 											<div class="description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										 One of the largest zoological gardens in Germany founded in 1934. It is especially well known for its dolphinarium and breeding koalas.
 											</div>
 
-											<div class="title">San Diego Zoo</div>
-											<div class="meta">San Diego, California, USA</div>
+											<div class="title">Zoo Duisburg</div>
+											<div class="meta">Duisburg, Germany</div>
 										</div>
 									</div>
 								</div>
@@ -435,47 +437,47 @@
 								<div class="col-lg-4">
 									<div class="area-card card">
 										<img
-											src="https://via.placeholder.com/200x150"
-											alt=""
+											src="/assets/img/zoo/arignar.png"
+											alt="Arignar Anna Zoo"
 											srcset=""
 										/>
 										<div class="card-body">
 											<div class="description">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												The first public zoo in India. It houses 2,553 species of flora and fauna across 1,265 acres, 1,500 of which are wild species.
 											</div>
 
-											<div class="title">San Diego Zoo</div>
-											<div class="meta">San Diego, California, USA</div>
+											<div class="title">Arignar Anna Zoo</div>
+											<div class="meta">Chennai, India</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-			
+
 
 						<div class="row">
 							<div class="col-lg-6">
 								<div class="support-cta">
 									<p>Share & vote your preferred zoo on our Twitter polls!</p>
-									<button class="btn btn-outline-primary px-5">
+									<a class="btn btn-outline-primary px-5" href="https://twitter.com/thezmproject/status/1406289709211566081" target="_blank">
 										<img src="./assets/img/Twitter.svg" alt="" /> Vote Now
-									</button>
+									</a>
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="support-cta">
-									<p>Check for yourself the Charity Pool Wallet</p>
-									<button class="btn btn-outline-primary px-5">
+									<p>Check for yourself the value of Charity Pool Wallet</p>
+									<a class="btn btn-outline-primary px-5" target="_blank" href="https://info.quickswap.exchange/pair/0x632854882475c08b0bf755e4094e8cb653a87c24">
 										<img src="./assets/img/performance.svg" alt="" /> Check
-										generated funds
-									</button>
+										the pool
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-       -->
+
 			<!-- OUR MISSION -->
 
 			<section id="our-mission">
@@ -511,8 +513,16 @@
 									<div class="question-content">
 										<div class="question-title">Q1 / 2021</div>
 										<div class="question-description">
-											Team comes together to explore the Blockchain space
-											Concept Development Identity Impacted Zoo
+											<span class="checkmark">
+												<div class="checkmark_circle"></div>
+												<div class="checkmark_stem"></div>
+												<div class="checkmark_kick"></div>
+											</span>&nbsp;Team comes together to develop concept using Blockchain<br/>
+											<span class="checkmark">
+												<div class="checkmark_circle"></div>
+												<div class="checkmark_stem"></div>
+												<div class="checkmark_kick"></div>
+											</span>&nbsp;Curates the list of most impacted Zoo's in the world
 										</div>
 									</div>
 								</section>
@@ -522,10 +532,38 @@
 								</h3>
 								<section>
 									<div class="question-content">
-										<div class="question-title">Q2 / 2020</div>
+										<div class="question-title">Q2 / 2021</div>
 										<div class="question-description">
-											Team comes together to explore the Blockchain space
-											Concept Development Identity Impacted Zoo
+											<span class="checkmark">
+												<div class="checkmark_circle"></div>
+												<div class="checkmark_stem"></div>
+												<div class="checkmark_kick"></div>
+											</span>&nbsp;Tech Development on Polygon<br/>
+											<span class="checkmark">
+												<div class="checkmark_circle"></div>
+												<div class="checkmark_stem"></div>
+												<div class="checkmark_kick"></div>
+											</span>&nbsp;Launch Website and Social Media<br/>
+											<span class="checkmark">
+												<div class="checkmark_circle"></div>
+												<div class="checkmark_stem"></div>
+												<div class="checkmark_kick"></div>
+											</span>&nbsp;QuickSwap Listing<br/>
+											<span class="checkmark2">
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Coingecko Listing<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Coinmarketcap Listing<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Livecoinwatch Listing<br/>
+
 										</div>
 									</div>
 								</section>
@@ -535,10 +573,29 @@
 								</h3>
 								<section>
 									<div class="question-content">
-										<div class="question-title">Q3 / 2019</div>
+										<div class="question-title">Q3 / 2021</div>
 										<div class="question-description">
-											Team comes together to explore the Blockchain space
-											Concept Development Identity Impacted Zoo
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Awareness Campaigns<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;First Zoo Donation Drop<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Partnerships<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Key-Team Hires<br/>
+
 										</div>
 									</div>
 								</section>
@@ -548,10 +605,33 @@
 								</h3>
 								<section>
 									<div class="question-content">
-										<div class="question-title">Q4 / 2018</div>
+										<div class="question-title">Q4 / 2021</div>
 										<div class="question-description">
-											Team comes together to explore the Blockchain space
-											Concept Development Identity Impacted Zoo
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Grand Marketing Start<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Staking<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;Partnerships<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;New Road map with new Zoos<br/>
+											<span class="checkmark2">
+												
+												<div class="checkmark_stem2"></div>
+												<div class="checkmark_kick2"></div>
+											</span>&nbsp;CEX Listing<br/>
 										</div>
 									</div>
 								</section>
@@ -565,7 +645,7 @@
 					<div id="team-section">
 						<div class="info">
 							<h3>Our team</h3>
-							<p>A unique mix of experiences to support our Zoos.</p>
+							<p>A unique mix of 50+ years of professional experience to grow the project.</p>
 						</div>
 
 						<br />
@@ -580,12 +660,12 @@
 									/>
 									<div class="card-body">
 										<div class="team-title">Rahul</div>
-										<div class="team-position">CEO</div>
+										<div class="team-position">Project Lead - Business</div>
 										<div class="team-about">
-											We ve come too far, To give up who we are, So let s raise
-											the bar and our cups to the stars.
+											15+ yrs of entrepreneurial experience growing digital business for Fortune 500 brands, with successful exit.
 										</div>
 									</div>
+									<a target="_blank" href="https://www.linkedin.com/in/rahulnambiar/"><i style="font-size:24px;padding-bottom: 20px;" class="fa">&#xf08c;</i></a>
 								</div>
 							</div>
 							<div class="col-lg-4">
@@ -597,11 +677,12 @@
 									/>
 									<div class="card-body">
 										<div class="team-title">Ricky</div>
-										<div class="team-position">CTO</div>
+										<div class="team-position">Project Lead- Technology</div>
 										<div class="team-about">
-											Passionate about Blockchain, Cloud, DevOps and Software Development with experience over 15 years
+											Passionate about Blockchain, Cloud, DevOps and Software Development with experience over 15 years working with global payment enablers.
 										</div>
 									</div>
+									<a target="_blank" href="https://www.linkedin.com/in/ricky-mohan/"><i style="font-size:24px;padding-bottom: 20px;" class="fa">&#xf08c;</i></a>
 								</div>
 							</div>
 							<div class="col-lg-4">
@@ -613,12 +694,12 @@
 									/>
 									<div class="card-body">
 										<div class="team-title">Marc</div>
-										<div class="team-position">CMO</div>
+										<div class="team-position">Project Lead - Commercial</div>
 										<div class="team-about">
-											I ve got a sweeter song than the birds in the trees. Well,
-											I guess youd say what can make me feel this way
+											15+ years of entrepreneurial experience in Fintech and Consumer Internet, with successful exit.
 										</div>
 									</div>
+									<a target="_blank" href="https://www.linkedin.com/in/marc-uthay/"><i style="font-size:24px;padding-bottom: 20px;" class="fa">&#xf08c;</i></a>
 								</div>
 							</div>
 						</div>
@@ -628,9 +709,7 @@
 					<div id="brands">
 						<div class="info">
 							<p>
-								We have build and helped in the past companies and brand to
-								<br />
-								grow
+								We have a successfull track record helping companies and brand to grow in todays time.
 							</p>
 						</div>
 
@@ -670,26 +749,6 @@
 									class="brand-img"
 									width="150"
 									src="./assets/img/brand icons/dbs.svg"
-									alt=""
-									srcset=""
-								/>
-							</div>
-
-							<div class="col-lg-2 col-half-offset col-6">
-								<img
-									class="brand-img"
-									width="150"
-									src="./assets/img/brand icons/accenture.svg"
-									alt=""
-									srcset=""
-								/>
-							</div>
-
-							<div class="col-lg-2 col-half-offset col-6">
-								<img
-									class="brand-img"
-									width="150"
-									src="./assets/img/brand icons/telkomsel.svg"
 									alt=""
 									srcset=""
 								/>
@@ -780,7 +839,7 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="footer-about">
-							
+
 						</div>
 					</div>
 				</div>
@@ -821,6 +880,38 @@
 		></script>
 
 		<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+				<!-- PAGE SCROLL -->
+				<script>
+					function scrollToDiv(element){
+	   
+					   setTimeout(() => {
+						   $('html, body').animate({
+							   scrollTop: $("#"+element).offset().top - 150
+						   }, 700);
+						   
+					   }, 100);
+			   
+				   }
+	   
+			   
+			   </script>
+	   
+			   <!-- CLOSE HAMBURGER MENU ONCLICK NAV_LINK -->
+	   
+			   <script>
+				   const navLinks = document.querySelectorAll('.nav-item')
+				   const menuToggle = document.getElementById('navbarSupportedContent')
+				  
+				   navLinks.forEach((l) => {
+				   l.addEventListener('click', () => { 
+					const bsCollapse = new bootstrap.Collapse(menuToggle)
+					bsCollapse.toggle() 
+				})
+				   })
+				   
+			   </script>
+	   
 		<!-- STEPS PLUGIN -->
 		<script>
 			$("#step-paths").steps({
